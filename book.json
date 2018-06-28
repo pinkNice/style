@@ -4,16 +4,18 @@
   "description" : "记录Gitbook的配置和一些插件的使用",
   "language" : "zh-hans",
   "plugins": [
-  	"expandable-chapters-small",
-  	"prism",
-  	 "-highlight",
-  	 "simple-page-toc",
-  	 "navigator"
+    "expandable-chapters-small",
+    "prism",
+    "-highlight",
+    "simple-page-toc",
+    "navigator",
+    "highlight-code",
+    "localized-footer"
   ],
-   "pluginsConfig": {
-        "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
-       }
+  "pluginsConfig": {
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
     }
+  }
 }

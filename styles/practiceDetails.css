@@ -1,0 +1,131 @@
+.exercise-details {
+  height: 100%;
+}
+.exercise-details .cover-card, .exercise-details .card-info {
+  vertical-align: middle;
+}
+.exercise-details .card-info {
+  width: 6.46667rem;
+}
+.exercise-details .title.h2 {
+  padding-bottom: 0.26667rem;
+  border-left: 0.06667rem solid #4782F6;
+}
+.exercise-details .exercise-catalog {
+  padding-top: 0.53333rem;
+  background: #fff;
+}
+.exercise-details .exercise-catalog > .unit {
+  margin-top: -0.22667rem;
+  padding-bottom: 0.22667rem;
+  color: #aaa;
+}
+.exercise-details .exercise-catalog > .unit .ul, .exercise-details .exercise-catalog > .unit li {
+  margin-left: 0.4rem;
+}
+.exercise-details .exercise-catalog > .unit p {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.exercise-details .exercise-catalog > .unit .last-child {
+  padding-bottom: 0.4rem;
+}
+.exercise-details .exercise-catalog > .unit + .unit {
+  padding-top: 0.4rem;
+  border-top: 1px solid #edeff0;
+}
+.exercise-details .exercise-catalog > .unit:last-child .last-child {
+  padding-bottom: 0.13333rem;
+}
+.exercise-details .exercise-place {
+  padding-top: 0.53333rem;
+  padding-bottom: 0.4rem;
+  background: #fff;
+}
+.exercise-details .exercise-place .place-btn {
+  margin-bottom: -0.26667rem;
+}
+.exercise-details .exercise-place .place-btn .u-btn {
+  margin-bottom: 0.26667rem;
+  margin-right: 0.26667rem;
+  line-height: 0.73333rem;
+  width: auto;
+  padding: 0 0.26667rem;
+}
+.exercise-details .exercise-info {
+  padding-top: 0.53333rem;
+  padding-bottom: 1.73333rem;
+  background: #fff;
+}
+.exercise-details .exercise-info .h3 em:first-child {
+  display: inline-block;
+  width: 2rem;
+}
+.exercise-details .footer-btn {
+  position: fixed;
+  bottom: 0;
+  left: -0.06667rem;
+  width: 100%;
+  height: 1.30667rem;
+  line-height: 1.30667rem;
+  border-radius: 0;
+  z-index: 1030;
+}
+.exercise-details .exercise-code {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  width: 100%;
+  height: 100%;
+}
+.dialog-code.dialog-box {
+  right: 0;
+  margin: 0 auto;
+  min-width: 4rem;
+  max-width: 10rem;
+}
+.dialog-code .dialog-body {
+  padding-bottom: 0.53333rem;
+  margin: 0 auto;
+  top: 0;
+  right: 0;
+  height: 5.33333rem;
+  overflow: hidden;
+}
+.dialog-code .dialog-body .inputs {
+  position: relative;
+  margin-right: 0.4rem;
+}
+.dialog-code .dialog-body .u-input {
+  padding: 0;
+  padding-left: 0.4rem;
+  margin-top: 0.18667rem;
+  width: 100%;
+  height: 1.17333rem;
+  line-height: 1.17333rem;
+  border: 1px solid #aaa;
+  border-radius: 0.13333rem;
+  font-size: 0.45333rem;
+}
+.dialog-code .dialog-body .u-input:focus {
+  border-color: #4782F6;
+}
+.dialog-code .exchange-btn {
+  position: absolute;
+  top: 0;
+  right: -0.46667rem;
+  margin-top: 0.18667rem;
+  width: 2.66667rem;
+  height: 1.17333rem;
+  line-height: 1.17333rem;
+  border-top: 1px solid #4782F6;
+  border-bottom: 1px solid #4782F6;
+  border-top-right-radius: 0.13333rem;
+  border-bottom-right-radius: 0.13333rem;
+  color: #fff;
+  background: #4782F6;
+}
